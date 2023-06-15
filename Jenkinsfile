@@ -14,6 +14,14 @@ pipeline {
          stage('deploying') {
             steps {
                 sh 'echo code to deploy'
+         stage('chechkin') {
+            steps {
+                sh 'echo chechkin jenkins file'
+            }
+        }
+         stage('out') {
+            steps {
+                sh 'echo out jenkins file'
             }
         }
     }
