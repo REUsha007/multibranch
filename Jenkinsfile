@@ -6,14 +6,6 @@ pipeline {
                 sh 'echo chechkout jenkins file'
             }
         }
-         stage('testing') {
-            steps {
-                sh 'echo testing code'
-            }
-        }
-         stage('deploying') {
-            steps {
-                sh 'echo code to deploy'
          stage('chechkin') {
             steps {
                 sh 'echo chechkin jenkins file'
