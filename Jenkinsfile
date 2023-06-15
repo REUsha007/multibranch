@@ -16,11 +16,5 @@ pipeline {
                 sh 'echo out jenkins file'
             }
         }
-        {
-            stage('in') {
-            steps {
-                sh 'echo in jenkins file'
-            }
-        }
+       }
     }
-}
