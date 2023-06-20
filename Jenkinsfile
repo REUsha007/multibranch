@@ -11,7 +11,7 @@ pipeline {
                 sh 'echo chechkin jenkins file'
             }
         }
-         stage('out') {
+         stage('in') {
             steps {
                 sh 'echo out jenkins file'
             }
